@@ -11,14 +11,14 @@ const Footer = () =>{
             <div className={styles.footerBody}>
                 <ul>
                     <li><Link to = "/" className={styles.li} >Home</Link></li>
-                    <li><Link to = "/" className={styles.li} >Produtos</Link></li>
+                    <li><Link to = "/Product" className={styles.li} >Produtos</Link></li>
                     <li><Link to = "/" className={styles.li}>Contato</Link></li>
                 </ul>
                 <h2>e-shop</h2>
                 <div className={styles.socialIcons}>
-                    <a href="#"><SlSocialInstagram /></a>
-                    <a href="#"><SlSocialTwitter /></a>
-                    <a href="#"><SlSocialYoutube /></a>
+                    <a href="/"><SlSocialInstagram /></a>
+                    <a href="/"><SlSocialTwitter /></a>
+                    <a href="/"><SlSocialYoutube /></a>
                 </div>
                 <p>Todos os direitos reservados @2024</p>
             </div>

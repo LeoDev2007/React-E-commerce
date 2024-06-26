@@ -29,8 +29,9 @@ const Data = {
             title: 'Samsung Galaxy S23',
             price: 'R$2998',
             desc: '256GB Branco 5G 8GB',
-        }
+        },
+     
     ]
-}
+}       
 
 export default Data;

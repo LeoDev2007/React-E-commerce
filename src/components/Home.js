@@ -4,9 +4,11 @@ import styles from './home.module.css';
 import data from "./Data.js";
 import Footer from './Footer.js';
 
+
 const home = () => {
     return(
        <div className={styles.home}>
+      
         <h2 style={{color: '#000', textAlign: 'center', fontSize: '40px', padding: '20px'}}>Promoções</h2>
         <Slider />
         <h2 style={{color: '#000', textAlign: 'center', fontSize: '30px', padding: '40px'}}>Melhores Ofertas</h2>
